@@ -1,1 +1,1 @@
-# Katoolin_removal
+The script removes the Kali repository information from /etc/apt/sources.list added by Katoolin. The code is inspired from [LionSec's Katoolin's Script](https://github.com/LionSec/katoolin/blob/master/katoolin.py).
