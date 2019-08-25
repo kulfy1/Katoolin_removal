@@ -2,7 +2,7 @@
 import os
 infile = "/etc/apt/sources.list"
 outfile = "/etc/apt/sources.list"
-delete_list = ["# Kali linux repositories | Added by Katoolin\n", "deb http://h$
+delete_list = ["# Kali linux repositories | Added by Katoolin\n", "deb http://http.kali.org/kali kali-rolling main contrib non-free\n"]
 fin = open(infile)
 os.remove("/etc/apt/sources.list")
 fout = open(outfile, "w+")
